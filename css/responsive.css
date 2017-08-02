@@ -1,0 +1,112 @@
+
+@media screen and (max-width: 950px){
+
+    .main-header__wrapper{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .main-header{
+        background: url("../images/santa.png") 35% 98% no-repeat,
+        url("../images/back.jpg") center 100% no-repeat;
+        height: 1050px;
+        width: 100%;
+        background-color: rgb(26,175,203);
+    }
+
+    .main-header__content, .main-header__form{
+        margin: 5px auto;
+    }
+
+    .content-stuffs{
+        height: auto;
+    }
+
+    .content-stuffs__wrapper{
+        width: 100%;
+    }
+
+    .main-footer__wrapper{
+        width: 100%;
+    }
+
+    .ball4{  width: 190px; height: 190px; }
+
+    .ball1{ width: 200px; height: 200px; }
+
+    .ball3, .ball2{  width: 210px; height: 210px; }
+
+    .rope{ height: 400px;}
+    .rope2, .rope4{ height: 180px; }
+
+
+    .info1{ left: 2%;}
+    .info2{ left: 25%;}
+    .info3{ left: 47%;}
+    .info4{ left: 68%;}
+}
+
+@media screen and (max-width: 670px){
+
+    .main-footer__title {
+        background: url("../images/flag2.png") 50% 0 no-repeat;
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 639px){
+
+    .content-stuffs__text{
+        font-size: 1.5em;
+        left: 50%;
+        margin-left: -200px;
+    }
+
+    .main-footer__title {
+        background: url("../images/flag3.png") 50% 0 no-repeat;
+        height: 100px;
+        font-size: 1.2em;
+        padding-top: 12px;
+    }
+
+    .main-footer__title span{
+        display: inline-block;
+        width: 240px;
+        font-size: 1.2em;
+    }
+
+    .main-footer{
+        height: 950px;
+    }
+
+    .rope{ display: none; }
+
+    .info1{ left: 10%; top: 510px;}
+    .info2{ left: 10%; top: 140px;}
+    .info3{ left: 55%; top: 350px;}
+    .info4{ left: 58%; top: 660px;}
+}
+
+@media screen and (max-width: 500px){
+    .content-stuffs__wrapper{
+        margin-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .info1{ left: 10%; top: 510px;}
+    .info2{ left: 10%; top: 140px;}
+    .info3{ left: 45%; top: 350px;}
+    .info4{ left: 47%; top: 660px;}
+}
+
+@media screen and (max-width: 450px){
+
+    .main-footer{
+        height: 960px;
+    }
+
+    .info1{ left: 3%; top: 550px;}
+    .info2{ left: 3%; top: 140px;}
+    .info3{ left: 44%; top: 360px;}
+    .info4{ left: 47%; top: 720px;}
+}
